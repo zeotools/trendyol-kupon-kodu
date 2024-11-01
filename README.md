@@ -4,14 +4,17 @@ Bu proje, Trendyol alışveriş platformunda kullanılabilecek indirim kodların
 
 ## Trendyol Kupon Kodu
 
-Trendyol'da alışveriş yaparken kullanabileceğiniz güncel indirim kodlarını keşfetmek için [buraya tıklayın](https://enuygunfirmalar.com/forums/trendyol-indirim-kuponu.49/).
+Trendyol'da alışveriş yaparken kullanabileceğiniz güncel indirim kodlarını keşfetmek için [Trendyol Kupon Kodu](https://enuygunfirmalar.com/forums/trendyol-indirim-kuponu.49/).
 
 Bu sayfada, en uygun indirim kodlarını bulacak ve bunları alışverişlerinizde kullanarak tasarruf edeceksiniz.
 
-**Yönlendirme:** 20 saniye içinde Trendyol indirim kodu sayfasına yönlendirileceksiniz.
-
-<script>
-    setTimeout(function(){
-        window.location.href = "https://enuygunfirmalar.com/forums/trendyol-indirim-kuponu.49/";
-    }, 20000);
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yönlendiriliyorsunuz</title>
+    <script>
+        setTimeout(function(){
+            window.location.href = "https://enuygunfirmalar.com/forums/trendyol-indirim-kuponu.49/";
+        }, 20000);
+    </script>
+</head>
