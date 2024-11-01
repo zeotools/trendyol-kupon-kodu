@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendyol İndirim Kuponu</title>
+    <style>
+        /* Genel ayarlar ve stil */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            color: #333;
+            background-color: #f9f9f9;
+            width: 350px;
+        }
+
+        h2 {
+            color: #ff5722;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        /* Ayarların görünümünü daha modern hale getirme */
+        .settings {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        label, select {
+            width: 80%;
+            margin: 5px 0;
+        }
+
+        .frequency-options {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        select {
+            padding: 5px;
+            font-size: 1em;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background: #ffffff;
+        }
+
+        /* Kayıt butonu için stil */
+        #saveSettings {
+            width: 80%;
+            padding: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            color: white;
+            background-color: #ff5722;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        #saveSettings:hover {
+            background-color: #e64a19;
+        }
+
+        /* Siteye yönlendiren buton */
+        .preview-button {
+            display: block;
+            margin-top: 20px;
+            width: 80%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .preview-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Trendyol İndirim Kuponları</h2>
+    <p>Yeni kuponları anında takip etmek için bildirim alın.</p>
+
+    <!-- Bildirim ayarları ve seçenekleri -->
+    <div class="settings">
+        <label for="frequency">Bildirim Sıklığı:</label>
+        <div class="frequency-options">
+            <select id="frequency">
+				<option value="1">1 Dakika</option>
+                <option value="5">5 Dakika</option>
+                <option value="10">10 Dakika</option>
+                <option value="15">15 Dakika</option>
+                <option value="30">30 Dakika</option>
+                <option value="60">1 Saat</option>
+            </select>
+        </div>
+        <button id="saveSettings">Ayarları Kaydet</button>
+    </div>
+
+    <!-- Siteye yönlendirme butonu -->
+    <a href="https://enuygunfirmalar.com" target="_blank" class="preview-button">Siteyi Ziyaret Et</a>
+
+    <script src="popup.js"></script>
+</body>
+</html>
